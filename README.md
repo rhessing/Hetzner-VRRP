@@ -25,6 +25,8 @@ The script has two arguments:
 
 Please make sure that you use he exact same server names and VIP descriptions in the hetzner cloud admin interface and when calling the script within keepalived.
 
+Also, add your own token in the script, see requirements ;-)
+
 This setup has been tested and confirmed to be working for at least 3 months at hetzner without issues (there were server issues but the other node always took over all traffic).
 
 The switch will take up to 1 minute, this is a hetzner thingy and as far as I was aware cannot be done quicker.
